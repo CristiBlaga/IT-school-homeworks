@@ -1,0 +1,46 @@
+div {
+    margin: 20px;
+  }
+.theWrapper {
+    padding: 30px;
+    background-color: lightgray;
+    width: 500px;
+    border-collapse:collapse;
+    border-color: #f7f7f7;
+    display: table;
+  }
+  .firstRow {
+    background-color: yellow;
+    padding: 20px;
+  }
+  .secondRow {
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .secondRow div {
+    background-color: #28aea3;
+    width: fit-content;
+    height: 50px;
+    width: 300px;
+  }
+  .thirdRow {
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .thirdRow div {
+    background-color: #166298;
+    height: 50px;
+    width: 150px;
+  }
+  .fourthRow {
+    background-color: yellow;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  

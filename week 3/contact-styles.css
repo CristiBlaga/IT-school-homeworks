@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(255, 253, 250);
+    font-family: 'Times New Roman', Times, serif; 
+    
+    
+}
+header {
+    background-color: lightgray;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form {
+    background-color: lightgray;
+    width: fit-content;
+    margin: auto;
+}
+h2 {
+    color: darkgray;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+    margin: auto;
+}
+ul {
+    border-top: 1px solid gray;
+    padding-top: 15px;
+    width: fit-content;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+}
+form button {
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(73, 73, 219);
+    color: aliceblue;
+}
