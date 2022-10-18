@@ -1,0 +1,29 @@
+body {
+    background-color: #CCC;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+h2 span {
+  margin-left: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-size: 5rem; 
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 100ms;
+}
+button:hover {
+    transform: scale(1.3);
+}
